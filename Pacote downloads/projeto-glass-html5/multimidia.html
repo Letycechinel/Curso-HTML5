@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br" xmlns="http://www.w3.org/1999/html" xmlns="http://www.w3.org/1999/html"
+      xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <title> TUDO SOBRE GOOGLE GLASS </title>
+    <link rel="stylesheet" type="text/css" href="_css/estilo.css"/>
+    <link rel="stylesheet" href="_css/media.css"/>
+</head>
+<script language="JavaScript" src="_javascript/funcoes.js"></script>
+<body>
+<div id="interface">
+    <header id="cabecalho">
+        <hgroup>
+            <h1> Google Glass </h1>
+            <h2> A revolução do Google está chegando </h2>
+        </hgroup>
+        <img id="icone" src="_imagens/multimidia.png" >
+
+        <nav id="menu" >
+            <h1> Menu Principal </h1>
+            <ul type="disc">
+                <li onmouseover="MudaNome('_imagens/home.png')" onmouseout="MudaNome ('_imagens/multimidia.png')"><a href="index.html">Home</a></li>
+                <li onmouseover="MudaNome('_imagens/especificacoes.png')" onmouseout="MudaNome('_imagens/multimidia.png')"><a href="specs.html">Especificações</a></li>
+                <li onmouseover="MudaNome('_imagens/fotos.png')" onmouseout="MudaNome('_imagens/multimidia.png')"><a href="fotos.html">Fotos</a></li>
+                <li onmouseover="MudaNome('_imagens/multimidia.png')" onmouseout="MudaNome('_imagens/multimidia.png')"><a href="multimidia.html">Multimídia</a></li>
+                <li onmouseover="MudaNome('_imagens/contato.png')" onmouseout="MudaNome('_imagens/multimidia.png')"><a href="fale-conosco.html">Fale conosco</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section id="corpo-full">
+
+        <article id="noticia-principal">
+            <header id="cabecalho-artigo">
+                <hgroup>
+                    <h3> Glass > Multimídia </h3>
+                    <h1> Sons e Vídeos </h1>
+                    <h2> por Letícia Cechinel </h2>
+                    <h3 class="direita"> Atualizado em 20/Abril/2022 </h3>
+                </hgroup>
+            </header>
+
+            <div id="tv-radio">
+                <audio id="musica" controls="controls">
+                    <source src="_media/2009-lovers-carvings-bibio.mp3" type="audio/mpeg"/>
+                    <source src="_media/2009-lovers-carvings-bibio.m4a" type="audio/x-aac"/>
+                    <source src="_media/2009-lovers-carvings-bibio.ogg" type="audio/ogg"/>
+                    Desculpe, mas não foi possível carregar o aúdio!
+                </audio>
+
+                <video id="filme" controls="controls" poster="_imagens/video-mini03.jpg">
+                    <source src="_media/getting-started.mp4" type="video/mp4"/>
+                    <source src="_media/getting-started.webm" type="video/webm"/>
+                    <source src="_media/getting-started.ogv" type="video/ogg"/>
+                    Desculpe, mas não foi possível carregar o aúdio!
+                </video>
+            </div>
+
+
+
+        </article>
+    </section>
+<footer id="rodape">
+    <p> Copyright &copy;; 2022 - by Leticia Cechinel </br>
+        <a href="https://www.facebook.com/leticia.cecchinel" target="_blank">Facebook</a></p>
+</footer>
+</div>
+</body>
+</html>
